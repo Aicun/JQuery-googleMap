@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    width:1000px;
+	margin:0 auto;
+}
+
+#map {
+    float:left;
+    width: 500px;
+    height: 400px;
+}
+
+#message, #flickrImg {
+    display: none;
+    position: absolute;
+	padding: 10px;
+	background: white;
+	border: 2px black solid;
+	border-radius: 10px;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#directions {
+    float: left;
+    width: 300px;
+    margin:0 5px;
+    padding: 5px;
+}
+
+ul li a {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin: 0 5px 5px;
+    background-color: #ccc;
+}
+
+img {
+    width:150px;
+    height:150px;
+}
